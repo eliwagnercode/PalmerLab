@@ -1,0 +1,63 @@
+column_name,trait_covariate,description,general_category,trait_name,subtrait_name,graph_name,drug_abuse_tier
+box,covariate,self admin box,NULL,NULL,NULL,NULL,NULL
+cohort,covariate,phenotyping cohort ,NULL,NULL,NULL,NULL,NULL
+irr_age,covariate,age of animal on first day of defensive testing before self admin,NULL,NULL,NULL,NULL,NULL
+labanimalid,covariate,unique lab assigned id to sample,NULL,NULL,NULL,NULL,NULL
+lga_12_age,covariate,age of animal on day 12 of long access session,NULL,NULL,NULL,NULL,NULL
+pr_01_age,covariate,age of animal on day 1 of progressive ratio at breakpoint,NULL,NULL,NULL,NULL,NULL
+pr_02_age,covariate,age of animal on day 2 of progressive ratio at breakpoint,NULL,NULL,NULL,NULL,NULL
+pr_03_age,covariate,age of animal on day 3 of progressive ratio at breakpoint,NULL,NULL,NULL,NULL,NULL
+sex,covariate,sex of sample,NULL,NULL,NULL,NULL,NULL
+sha_01_age,covariate,age of animal on day 01 of short access session,NULL,NULL,NULL,NULL,NULL
+sha_08_age,covariate,age of animal on day 08 of short access session,NULL,NULL,NULL,NULL,NULL
+shock_03_age,covariate,age of animal on foot shocks of 0.3 mA,NULL,NULL,NULL,NULL,NULL
+weight_surgery,covariate,weight at surgery date,NULL,NULL,NULL,NULL,NULL
+rfid,metadata,unique rfid assigned to sample,NULL,NULL,NULL,NULL,NULL
+add_ind_calc_no_z_shock_03,trait,index calculated by Palmer team with no Z score at all,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+add_ind_calc_no_z_shock_03_avg1h,trait,index calculated by Palmer team with no Z score at all,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+add_ind_olivier,trait,index calculated by Giordano's team,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+add_index_palmer_shock_03_avg1h,trait,index calculated by Palmer team,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+add_index_sexcohort_z,trait,index calculated by Palmer team,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+addiction_index_no_sex_z,trait,index calculated by Palmer team with no seperate Zscore of male and female,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+addiction_index_no_sex_z_shock_03_avg1h,trait,index calculated by Palmer team with no seperate Zscore of male and female,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+irr_agg_change,trait,aggressive behavior counts after self admin -  aggressive behavior counts before self admin,NULL,NULL,NULL,NULL,NULL
+irr_def_change,trait,defensive behavior counts after self admin -  defensive behavior counts before self admin,NULL,NULL,NULL,NULL,NULL
+irr_total_change,trait,aggressive and defensive behavior counts after self admin -  aggressive and defensive behavior counts before self admin,NULL,NULL,NULL,NULL,NULL
+lga_behavior_stability_12_14,trait,standard deviation of median (no NA correction) intertrial interval in LGA (days 12-14),NULL,NULL,NULL,NULL,NULL
+lga_behavior_stability_12_14_na,trait,standard deviation of median (correcting NA's with 0's if NA's come from trials with one/two rewards) intertrial interval in LGA (days 12-14),NULL,NULL,NULL,NULL,NULL
+lga_coefficient_of_variation,trait,standard deviation of ITI/mean of ITI wtihin LGA (days 12-14),NULL,NULL,NULL,NULL,NULL
+lga_iti_median_12_14,trait,Median of ITI (ITI being the time in sec between reward events using the timestamp data),NULL,NULL,NULL,NULL,NULL
+lga_loading_phase_intake_12_14,trait,number of rewards during the first ten minutes of LGA (days 12-14),NULL,NULL,NULL,NULL,NULL
+lga_mean_12_14,trait,average of the number of cocaine infusions during the last three sessions of long access self administration (6 hours),NULL,NULL,NULL,NULL,NULL
+lga_mean_delta_esc_12_14,trait,average of the escalation values during the last three sessions of long access self administration (6 hours),Behavior,Consumption level,cocaine preference,Mean of LGA Escalation (days 11-14),Tier 1
+lga_mean_inactive_12_14,trait,average of the inactive during the last three sessions of long access self administration (6 hours),Behavior,non-specific behavior,cocaine preference,Mean of LGA Escalation (days 11-14),Tier 1
+lga_mean_to_12_14,trait,average of the TO escalation values during the last three sessions of long access self administration (6 hours),Behavior,Seeking/stereotyp level,cocaine preference,Mean of LGA Escalation (days 11-14),Tier 1
+lga_titration_phase_12_14,trait,intake during the last 60 min in LGA (days 12-14),NULL,NULL,NULL,NULL,NULL
+pr_01_sha,trait,number of cocaine infusions received during day 1 (post-ShA) of progressive ratio at breakpoint,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+pr_01_sha_breakpoint,trait,number of cocaine infusions received during day 1 (post-ShA) of progressive ratio at breakpoint,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+pr_02_lga,trait,number of cocaine infusions received during day 2 (post-LgA) of progressive ratio at breakpoint,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+pr_02_lga_breakpoint,trait,number of cocaine infusions received during day 2 (post-LgA) of progressive ratio at breakpoint,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+pr_03_postshock,trait,number of cocaine infusions received during day 3 (post shock) of progressive ratio at breakpoint,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+pr_03_postshock_breakpoint,trait,number of cocaine infusions received during day 3 (post shock) of progressive ratio at breakpoint,Behavior,Consumption level,cocaine preference,NULL,Tier 1
+pr_max_02_03,trait,max value between pr2&3,NULL,NULL,NULL,NULL,NULL
+pr_max_02_03_breakpoint,trait,max value between pr2&3,NULL,NULL,NULL,NULL,NULL
+sha_behavior_stability_01_03,trait,standard deviation of median (no NA correction) intertrial interval in SHA (days 01-03),NULL,NULL,NULL,NULL,NULL
+sha_behavior_stability_08_10,trait,standard deviation of median (no NA correction) intertrial interval in SHA (days 08-10),NULL,NULL,NULL,NULL,NULL
+sha_behavior_stability_08_10_na,trait,standard deviation of median (correcting NA's with 0's if NA's come from trials with one/two rewards) intertrial interval in SHA (days 08-10),NULL,NULL,NULL,NULL,NULL
+sha_coefficient_of_variation,trait,standard deviation of ITI/mean of ITI within SHA (days 08-10),NULL,NULL,NULL,NULL,NULL
+sha_coefficient_of_variation_2,trait,standard deviation of ITI/mean of ITI within SHA (days 01-03),NULL,NULL,NULL,NULL,NULL
+sha_iti_median_08_10,trait,Median of ITI (ITI being the time in sec between reward events using the timestamp data),NULL,NULL,NULL,NULL,NULL
+sha_loading_phase_intake_01_03,trait,number of rewards during the first ten minutes of SHA (days 01-03),NULL,NULL,NULL,NULL,NULL
+sha_loading_phase_intake_08_10,trait,number of rewards during the first ten minutes of SHA (days 08-10),NULL,NULL,NULL,NULL,NULL
+sha_mean_01_03,trait,average of the number of cocaine infusions during the first three sessions of short access self administration (2 hours),NULL,NULL,NULL,NULL,NULL
+sha_mean_08_10,trait,average of the number of cocaine infusions during the last three sessions of short access self administration (2 hours),Behavior,Consumption level,cocaine preference,NULL,Tier 1
+sha_mean_delta_esc_08_10,trait,average of the escalation values during the last three sessions of short access self administration (2 hours),NULL,NULL,NULL,NULL,NULL
+sha_mean_inactive_01_03,trait,average of the number of inactive during the first three sessions of short access self administration (2 hours),NULL,NULL,NULL,NULL,NULL
+sha_mean_inactive_08_10,trait,average of the number of inactive during the last three sessions of short access self administration (2 hours),Behavior,non-specific behavior,cocaine preference,NULL,Tier 1
+sha_mean_to_01_03,trait,average of the number of TO response during the first three sessions of short access self administration (2 hours),NULL,NULL,NULL,NULL,NULL
+sha_mean_to_08_10,trait,average of the number of TO response during the last three sessions of short access self administration (2 hours),Behavior,Seeking/stereotyp level,cocaine preference,NULL,Tier 1
+sha_titration_phase_01_03,trait,intake during the last 60 min in SHA (days 01-03),NULL,NULL,NULL,NULL,NULL
+sha_titration_phase_08_10,trait,intake during the last 60 min in SHA (days 01-03),NULL,NULL,NULL,NULL,NULL
+shock_03,trait,number of cocaine infusions received during foot shocks of 0.3 mA (For all shock data: omit rewards received before the first shock; Total rewards - (M:1:) +1 =rewards after first shock > includes the reward that accompanies the first shock),Behavior,Consumption level,cocaine preference,NULL,Tier 1
+shock_03_avg1h,trait,% shock_0.3 vs average reward obtained during the 1st hour of the last 3 days of LgA (For all shock data: omit rewards received before the first shock; Total rewards - (M:1:) +1 =rewards after first shock > includes the reward that accompanies the first shock),NULL,NULL,NULL,NULL,NULL
+shock_03_pre,trait,% shock_0.3 vs preshock session (For all shock data: omit rewards received before the first shock; Total rewards - (M:1:) +1 =rewards after first shock > includes the reward that accompanies the first shock),NULL,NULL,NULL,NULL,NULL
